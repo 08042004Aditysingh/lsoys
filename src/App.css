@@ -1,9 +1,9 @@
-
+/* 
 body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 1.7rem;
-}
+} */
 
 .card {
   padding: 2em;
@@ -26,12 +26,12 @@ body{
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .hero-subtitle {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   margin-bottom: 30px;
 }
 
@@ -49,29 +49,38 @@ body{
   background: #eee;
 }
 
-.problem-section, .features-section, .pricing-section, .contact-section {
+.problem-section, .features-section, .pricing-section, .contact-section, .testimonials-section {
   padding: 40px 20px;
 }
 
 .section-title {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 30px;
   color: #007bff;
 }
 
-.problem-list, .feature-list {
+.problem-list, .feature-list, .testimonial-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
   align-items: center;
 }
 
-.problem-item, .feature-item {
+.problem-item, .feature-item, .testimonial-item {
   background: #f0f4f7;
   padding: 15px 20px;
   border-radius: 10px;
   width: 60%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-weight: bold;
 }
 
 .pricing-plans {
@@ -84,18 +93,18 @@ body{
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  width: 400px;
+  width: 250px;
   padding: 20px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .plan-title {
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 .plan-price {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #28a745;
 }
 
@@ -140,7 +149,6 @@ body{
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s;
-  font-size: 2rem;
 }
 
 .submit-button:hover {
@@ -153,12 +161,4 @@ body{
   background: #333;
   color: #fff;
   text-align: center;
-}
-
-input{
-  font-size: 1.5rem;
-}
-
-textarea{
-  font-size: 1.5rem;
 }
